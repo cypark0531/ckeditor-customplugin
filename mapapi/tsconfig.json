@@ -1,0 +1,15 @@
+/*
+ * The base configuration used by all other configuration.
+ *
+ * Be careful when updating this file. It may affect building docs, preparing DLLs, executing tests, or impacts the release process.
+ */
+{
+  "compilerOptions": {
+	"allowJs": true,
+	"declaration": true,
+	"emitDeclarationOnly": true
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
